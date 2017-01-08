@@ -1,0 +1,13 @@
+{
+  "name": "queue",
+  "scripts": {
+    "build-docs": "rm -r docs && typedoc ./queue.ts --out docs",
+    "compile": "tsc",
+    "test": "npm run compile && node ./build/test"
+  },
+  "devDependencies": {
+    "typedoc": "^0.5.3",
+    "typedoc-markdown-theme": "0.0.4",
+    "typescript": "^2.1.4"
+  }
+}
